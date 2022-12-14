@@ -9,6 +9,8 @@ const app = express();
 
 app.get('/', function (req, res) {
     res.send(users);
+    console.log("REQ");
+    console.log(req.ip);
   });
 
 
